@@ -121,6 +121,7 @@ server <- function(input, output,session) {
         }
     })
     output$picture = renderText({
+        img = "https://t3.ftcdn.net/jpg/02/20/14/38/240_F_220143804_fc4xRygvJ8bn8JPQumtHJieDN4ORNyjs.jpg"
         x = input$book
         y = input$spe
         booknames = list()
